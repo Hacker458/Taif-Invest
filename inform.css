@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table, tr, td, th {
+  border: 1px solid #000;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 1200px;
+  table-layout: fixed;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  text-align: left;
+  font-size: 15px;
+  padding: 10px;
+}
+
+td:first-child {
+  text-align: center !important;
+}
+
+.number {
+  width: 50px;
+}
+
+.inform_desc {
+  width: 400px;
+}
+
+.page {
+  width: 200px;
+}
+
+.date {
+  padding-bottom: 100px;
+}
+
+td[colspan] {
+  padding: 20px;
+}
